@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.file-input {
+    border: 2px dashed darkblue;
+    background-color: lightblue;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    height: 100px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.file-input-drag {
+    border: 2px solid darkblue;
+    background-color: darkgrey;
+}
+
+.dicom-data {
+    margin: 20px auto;
+    width: 75%;
+}
+
+tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+tr:hover {
+    background-color: #ddd;
+    color: #000
+}
